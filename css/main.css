@@ -1,3 +1,116 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Merriweather:400italic,400,900,300italic,300,700,700italic,900italic);
+
+/* This is so the browser will know how to size the content, adjusts automatically keeps boxes within rows*/
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper {
+	margin: 20%;
+	margin-top: 0;
+}
+
+.logo {
+	max-width: 200px;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 250%;
+	line-height:;
+	color: #b8f0d9;
+	text-align: center;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	font-size: 100%;
+	line-height: 200%;
+	color:#3e354e;
+	text-align: center;
+}
+
+h2 {	
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 175%;
+	line-height:;
+	color: #B8F0D9;
+	text-align: center;
+}
+
+ol {
+	font-family:;
+	font-size:;
+	line-height:;
+}
+
+li {
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
+	line-height:;
+	list-style-type: none;
+	display: inline;
+	margin: 12px;
+}
+
+h3 {
+	font-family:;
+	font-size:;
+	line-height:;
+}
+
+ul {
+	font-family:;
+	font-size:;
+	line-height:;
+}
+
+nav {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+a {
+	color: #83d2e4;
+}
+
+a:hover, a:focus {
+	color: #b82265;
+}
+
+blockquote p {
+	font-size: 300%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #3e354e;
+}
+
+.button {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	background-color: #3e354e;
+	padding: 10px 50px 10px 50px;
+}
+
+.button:hover {
+	background-color: #b8f0d9;
+	border-right: solid;
+	border-bottom: solid;
+	border-color: #3e354e;
+	color: #3e354e;
+}
+
+footer {
+}
+
+header {
+}
