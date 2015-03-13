@@ -11,9 +11,22 @@
   box-sizing: border-box;
 }
 
+.hero-space {
+	background: url(../img/spce-hero-home.jpg);
+	width: 100%;
+	height: 962px;
+	background-size: 100%;
+	background-position: center;
+}
+
+.index-content {
+	padding-top: 50px;
+}
+
 .wrapper {
 	margin: 20%;
 	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .logo {
@@ -29,6 +42,10 @@ h1 {
 	text-align: center;
 }
 
+.spce-title {
+	margin-bottom: 25px;
+}
+
 p {
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
@@ -41,10 +58,15 @@ p {
 h2 {	
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
-	font-size: 175%;
+	font-size: 200%;
 	line-height:;
 	color: #B8F0D9;
 	text-align: center;
+}
+
+.spce-subtitle {
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 ol {
@@ -53,19 +75,22 @@ ol {
 	line-height:;
 }
 
-li {
+nav li {
 	font-family: 'Oswald', sans-serif;
 	font-size: 28px;
 	line-height:;
 	list-style-type: none;
 	display: inline;
-	margin: 12px;
+	padding: 12px;
 }
 
 h3 {
-	font-family:;
-	font-size:;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 150%;
 	line-height:;
+	color: #B8F0D9;
+	text-align: center;
 }
 
 ul {
@@ -77,6 +102,16 @@ ul {
 nav {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.call-out {
+	font-size: 150%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #3e354e;
+	text-align: center;
 }
 
 a {
@@ -85,13 +120,6 @@ a {
 
 a:hover, a:focus {
 	color: #b82265;
-}
-
-blockquote p {
-	font-size: 300%;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
-	color: #3e354e;
 }
 
 .button {
@@ -109,7 +137,97 @@ blockquote p {
 	color: #3e354e;
 }
 
+/* parallel button*/
+.btn {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border: none;
+	background-color: #83d2e4;
+	color: white;
+	font-size:1.2em;
+	padding:.5em 2em;
+	text-decoration:none;
+}
+
+.parallelogram{
+	transform: skew(-20deg);
+  
+}
+
+.skew-fix{
+	display:inline-block;
+	transform: skew(20deg);
+}
+
+/* pulled from http://codepen.io/kjbrum/pen/wBBLXx */
+html *,
+html *:before,
+html *:after {
+	box-sizing: border-box;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+html i, html em,
+html b, html strong,
+html span {
+	-webkit-transition: none;
+	transition: none;
+}
+
+*:before,
+*:after {
+	z-index: -1;
+}
+
+.btn {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.btn:after {
+	content: '';
+	width: 0;
+	height: 0;
+	-webkit-transform: rotate(360deg);
+	border-style: solid;
+	border-width: 0 0 0 0;
+	border-color: white transparent transparent transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.btn:hover {
+	color: #83d2e4;
+	border-style: solid;
+}
+.btn:hover:after {
+	border-width: 330px 330px 0 0;
+}
+
+hr {
+	width: 100%;
+	height: 1px;
+	background-color: #3e354e;
+	color: #3e354e;
+	border: 0 none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 footer {
+	margin: 30px 0px 10px 0px;
+}
+
+footer li {
+	font-size: 100%;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
 }
 
 header {
