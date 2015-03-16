@@ -224,6 +224,9 @@ footer {
 footer li {
 	font-size: 100%;
 	text-align: center;
+	list-style-type: none;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
 }
 
 footer p {
