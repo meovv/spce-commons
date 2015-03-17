@@ -351,6 +351,15 @@ html span {
 	padding-bottom: 50px;
 }
 
+.contact-information-list img {
+	width: 20px;
+}
+
+.contact-information-list li {
+	padding-bottom: 20px;
+	paddding-left: 10px;
+}
+
 /*footer items*/
 footer {
 	margin: 30px 0px 10px 0px;
