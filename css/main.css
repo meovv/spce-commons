@@ -349,8 +349,9 @@ hr {
 @media only screen { 
 
 .hero-space {
-	height: 710px;
+	height: 410px;
 	background-position: 0 475px;
+	background-image: none;
 }
 
 p {
@@ -363,6 +364,11 @@ h1 {
 
 h2 {	
 	font-size: ;
+}
+
+li {
+	font-size: 12px;
+	line-height: 18px;
 }
 
 .head-call-out {
@@ -403,8 +409,9 @@ h2 {
 @media only screen and (max-width: 40em) { 
 
 .hero-space {
-	height: 710px;
+	height: 410px;
 	background-position: 0 475px;
+	background-image: none;
 }
 
 p {
@@ -417,6 +424,11 @@ h1 {
 
 h2 {	
 	font-size: ;
+}
+
+li {
+	font-size: 12px;
+	line-height: 18px;
 }
 
 .head-call-out {
