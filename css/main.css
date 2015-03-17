@@ -168,6 +168,10 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	padding-top: 50px;
 }
 
+.visit-spce img{
+	padding-top: 25px;
+}
+
 /*paragraph styles*/
 p {
 	font-family: 'Merriweather', serif;
@@ -327,6 +331,22 @@ html span {
 	z-index: -1;
 }
 /*parallel button end*/
+
+/*contact information list*/
+.contact-information-list img {
+	width: 20px;
+	margin-right: 10px;
+	margin-left: 0px;
+}
+
+.contact-information-list {
+	padding-top: 30px;
+}
+
+.contact-information-list li {
+	padding-bottom: 20px;
+}
+
 
 /*footer items*/
 
