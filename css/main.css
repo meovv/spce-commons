@@ -43,24 +43,9 @@ nav ul {
 h1 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
-	font-size: 250%;
+	font-size: 50px;
 	color: #b8f0d9;
 	margin-bottom: 25px;
-}
-
-h2 {	
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 200%;
-	color: #B8F0D9;
-}
-
-/*delete this h3 if we don't have any within the html*/
-h3 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 150%;
-	color: #B8F0D9;
 }
 
 /*background image for mission statement*/
@@ -109,6 +94,7 @@ h3 {
 
 .keyword-02 p {
 	color: #b8f0d9;
+	margin-left: -10px;
 }
 
 /*key word education*/
@@ -118,7 +104,8 @@ h3 {
 }
 
 .keyword-03 p {
-	color: #b82265;
+	color: #83d2e4;
+	margin-left: -6px;
 }
 
 /*form items*/
@@ -170,7 +157,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 }
 
 .visit-spce {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 /*paragraph styles*/
@@ -259,6 +246,10 @@ a {
 
 a:hover, a:focus {
 	color: #b82265;
+}
+
+nav a {
+	line-height: 50px;
 }
 
 /* parallel button start*/
