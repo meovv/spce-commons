@@ -20,6 +20,8 @@
 .keywords {
 	padding-top: 30px;
 	padding-bottom: 200px;
+	background-image: url(../img/background-safe-word.svg);
+	background-repeat: no-repeat;
 }
 
 .keywords p {
@@ -32,21 +34,23 @@
 
 .keyword-01 {
 	float: left;
-	background-image: url(../img/background-safe-word-02.svg);
+	/*background-image: url(../img/background-safe-word-02.svg);*/
 	background-repeat: no-repeat;
 	background-size: 100%;
+	padding-left: 170px;
 }
 
 .keyword-02 {
 	float: left;
-	background-image: url(../img/background-safe-word-03.svg);
+	/*background-image: url(../img/background-safe-word-03.svg);*/
 	background-repeat: no-repeat;
 	background-size: 100%;
+	padding-top: 40px;
 }
 
 .keyword-03 {
 	float: left;
-	background-image: url(../img/background-safe-word-02.svg);
+	/*background-image: url(../img/background-safe-word-02.svg);*/
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
