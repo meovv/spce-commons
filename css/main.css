@@ -4,6 +4,50 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Merriweather:400italic,400,900,300italic,300,700,700italic,900italic);
 
+
+/*background images*/
+.mission-statement {
+	background-image: url(../img/background-mission-statement.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	/*padding-top: 500px;*/
+}
+
+.keywords {
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.keywords p {
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #3e354e;
+	padding-bottom: 50px;
+}
+
+.keyword-01 {
+	float: left;
+	background-image: url(../img/background-safe-word-03.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.keyword-02 {
+	float: left;
+	background-image: url(../img/background-safe-word-02.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.keyword-03 {
+	float: left;
+	background-image: url(../img/background-safe-word-03.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
 label {
   font-size: 0.875rem;
   color: red;
