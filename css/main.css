@@ -314,12 +314,16 @@ a:hover, a:focus {
 
 .parallelogram{
 	transform: skew(-20deg);
+	 -webkit-transform: skew(-20deg);
+  -ms-transform: skew(-20deg);
   
 }
 
 .skew-fix{
 	display:inline-block;
 	transform: skew(20deg);
+	-webkit-transform: skew(20deg);
+  -ms-transform: skew(20deg);
 }
 
 html *,
@@ -343,6 +347,10 @@ html span {
 }
 /*parallel button end*/
 
+.contact-information {
+	padding-bottom: 50px;
+}
+
 /*footer items*/
 footer {
 	margin: 30px 0px 10px 0px;
@@ -364,6 +372,11 @@ footer p {
 	margin: 0;
 }
 
+footer ul {
+	padding: 0;
+	margin: 0;
+}
+
 hr {
 	width: 100%;
 	height: 1px;
@@ -377,78 +390,78 @@ hr {
 }
 
 /*Styles specific to small screen sizes*/
-// Small screens
 @media only screen { 
-
-.hero-space {
-	height: 710px;
-	background-position: 0 475px;
-	background-image: none;
-}
-
-p {
-	font-size: 85%;
-}
-
-h1 {
-	font-size: 30px;
-}
-
-h2 {	
-	font-size: 24px;
-}
-
-li {
-	font-size: 12px;
-	line-height: 18px;
-}
-
-.head-call-out {
-	font-size: 20px;
-	line-height: 28px;
-}
-
-.subhead-call-out {
-	font-size: 20px;
-	font-weight: 500;
-}
-
-.list-head-call-out {
-	text-align: center;
-}
-
-.call-out span {
-	font-size: ;
-}
-
-.call-out p {
-	font-size: ;
-}
-
-/*background image for mission statement*/
-.mission-statement {
-	background-image: none;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-position: top;
-	background-size: 60%;
-	padding-top: 90px;
-	padding-bottom: 100px;
-}
-
-.keywords {
-	display: none;
-	padding-top: 30px;
-	padding-bottom: 0px;
-	background-image: url(../img/background-safe-word.svg);
-	background-repeat: no-repeat;
-}
-
-.spce-location {
-	padding:0;
-	margin: 0;
-}
 	
+	.hero-space {
+		height: 710px;
+		background-position: 0 475px;
+		background-image: none;
+	}
+	
+	p {
+		font-size: 85%;
+	}
+	
+	h1 {
+		font-size: 30px;
+	}
+	
+	h2 {	
+		font-size: 24px;
+	}
+	
+	li {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	
+	.head-call-out {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	
+	.subhead-call-out {
+		font-size: 20px;
+		font-weight: 500;
+	}
+	
+	.list-head-call-out {
+		text-align: center;
+	}
+	
+	/*
+	.call-out span {
+		font-size: ;
+	}
+	
+	.call-out p {
+		font-size: ;
+	}
+	*/
+	/*background image for mission statement*/
+	.mission-statement {
+		background-image: none;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-position: top;
+		background-size: 60%;
+		padding-top: 90px;
+		padding-bottom: 100px;
+	}
+	
+	.keywords {
+		display: none;
+		padding-top: 30px;
+		padding-bottom: 0px;
+		background-image: url(../img/background-safe-word.svg);
+		background-repeat: no-repeat;
+	}
+	
+	.spce-location {
+		padding:0;
+		margin: 0;
+	}
+		
 
 } /* Define mobile styles */
 
@@ -537,7 +550,6 @@ li {
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /*Styles specific to medium screen sizes*/
-// Medium screens
 @media only screen and (min-width: 40.063em) {
 	
 .hero-space {
