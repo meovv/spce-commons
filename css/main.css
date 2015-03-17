@@ -196,6 +196,12 @@ ul {
 	padding-bottom: 30px;
 }
 
+.visit-spce ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 .head-call-out {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
@@ -229,6 +235,21 @@ ul {
 
 .call-out p {
 	font-size: 100%;
+}
+
+/* Bullet Styles */
+.about-spce ul li {
+	color:#444; /* set color of list item to a dark gray */
+	list-style:none; /* if you’re not already using a reset */
+}
+
+.about-spce ul li:before {
+	color:#B72265; /* set color to red */
+	content:"\2022"; /* /2022 is the numerical unicode for &bull; */
+	font-size:1.5em; /* set the font-size of the bullet if necessary. Make sure to use em or %*/
+	padding-right:.25em; /* give the bullet some padding from the text Make sure to use em*/
+	position:relative;
+	top:.1em; /* set the vertical position of the bullet if necessary. Make sure to use em or % */
 }
 
 /*Link hovers*/
