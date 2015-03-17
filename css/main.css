@@ -12,8 +12,6 @@
 }
 
 /*navigation items*/
-header {
-}
 
 nav {
 	font-family: 'Oswald', sans-serif;
@@ -384,67 +382,7 @@ hr {
 	margin-bottom: 10px;
 }
 
-/*Styles specific to small screen sizes*/
-// Small screens
-@media only screen { 
-
-.hero-space {
-	height: 410px;
-	background-position: 0 475px;
-	background-image: none;
-}
-
-p {
-	font-size: 85%;
-}
-
-h1 {
-	font-size: ;
-}
-
-h2 {	
-	font-size: ;
-}
-
-li {
-	font-size: 12px;
-	line-height: 18px;
-}
-
-.head-call-out {
-	font-size: 20px;
-	line-height: 28px;
-	padding-top: 20px;
-}
-
-.subhead-call-out {
-	font-size: 20px;
-	font-weight: 500;
-}
-
-.list-head-call-out {
-	text-align: center;
-}
-
-/*background image for mission statement*/
-.mission-statement {
-	background-image: none;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-position: top;
-	background-size: 60%;
-	padding-top: 90px;
-	padding-bottom: 100px;
-}
-
-.keywords {
-	display: none;
-	padding-top: 30px;
-	padding-bottom: 0px;
-	background-image: url(../img/background-safe-word.svg);
-}
-
-} /* Define mobile styles */
+/* Define mobile styles */
 
 @media only screen and (max-width: 40em) { 
 
@@ -456,14 +394,6 @@ li {
 
 p {
 	font-size: 85%;
-}
-
-h1 {
-	font-size: ;
-}
-
-h2 {	
-	font-size: ;
 }
 
 li {
@@ -505,35 +435,6 @@ li {
 }
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
-
-/*Styles specific to medium screen sizes*/
-// Medium screens
-@media only screen and (min-width: 40.063em) {
-	
-.hero-space {
-	height: 700px;
-	background-position: 0 175px;
-}
-
-/*background image for mission statement*/
-.mission-statement {
-	background-image: url(../img/background-mission-statement.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-position: top;
-	background-size: 60%;
-	padding-top: 90px;
-	padding-bottom: 0px;
-}
-
-.keywords {
-	display: none;
-	padding-top: 30px;
-	padding-bottom: 0px;
-	background-image: url(../img/background-safe-word.svg);
-}
-	
-} /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 	
