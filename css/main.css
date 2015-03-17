@@ -365,25 +365,24 @@ h2 {
 	font-size: ;
 }
 
-ul {
-	
+.head-call-out {
+	font-size: 20px;
+	line-height: 28px;
+	padding-top: 20px;
 }
 
-.call-out {
-
+.subhead-call-out {
+	font-size: 20px;
+	font-weight: 500;
 }
 
-.call-out span {
-	font-size: ;
-}
-
-.call-out p {
-	font-size: ;
+.list-head-call-out {
+	text-align: center;
 }
 
 /*background image for mission statement*/
 .mission-statement {
-	background-image: url(../img/background-mission-statement.svg);
+	background-image: none;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-position: top;
@@ -420,25 +419,24 @@ h2 {
 	font-size: ;
 }
 
-ul {
-	
+.head-call-out {
+	font-size: 20px;
+	line-height: 28px;
+	padding-top: 20px;
 }
 
-.call-out {
-
+.subhead-call-out {
+	font-size: 20px;
+	font-weight: 500;
 }
 
-.call-out span {
-	font-size: ;
-}
-
-.call-out p {
-	font-size: ;
+.list-head-call-out {
+	text-align: center;
 }
 
 /*background image for mission statement*/
 .mission-statement {
-	background-image: url(../img/background-mission-statement.svg);
+	background-image: none;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-position: top;
