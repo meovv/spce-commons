@@ -94,9 +94,6 @@ h3 {
 /*key word supportive*/
 .keyword-01 {
 	float: left;
-	/*background-image: url(../img/background-safe-word-02.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
 	padding-left: 170px;
 }
 
@@ -107,9 +104,6 @@ h3 {
 /*key word inclusive*/
 .keyword-02 {
 	float: left;
-	/*background-image: url(../img/background-safe-word-03.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
 	padding-top: 40px;
 }
 
@@ -120,9 +114,6 @@ h3 {
 /*key word education*/
 .keyword-03 {
 	float: left;
-	/*background-image: url(../img/background-safe-word-02.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
 	margin-left: -190px;
 }
 
@@ -401,37 +392,11 @@ ul {
 	padding-bottom: 100px;
 }
 
-/*key word supportive*/
-.keyword-01 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-02.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding-left: 170px;
-}
-
-/*key word inclusive*/
-.keyword-02 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-03.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding-top: 40px;
-}
-
-/*key word education*/
-.keyword-03 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-02.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-
 .keywords {
+	display: none;
 	padding-top: 30px;
 	padding-bottom: 0px;
 	background-image: url(../img/background-safe-word.svg);
-	background-repeat: no-repeat;
 }
 
 } /* Define mobile styles */
@@ -482,37 +447,11 @@ ul {
 	padding-bottom: 100px;
 }
 
-/*key word supportive*/
-.keyword-01 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-02.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding-left: 170px;
-}
-
-/*key word inclusive*/
-.keyword-02 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-03.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding-top: 40px;
-}
-
-/*key word education*/
-.keyword-03 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-02.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-
 .keywords {
+	display: none;
 	padding-top: 30px;
 	padding-bottom: 0px;
 	background-image: url(../img/background-safe-word.svg);
-	background-repeat: no-repeat;
 }
 
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -538,36 +477,10 @@ ul {
 }
 
 .keywords {
+	display: none;
 	padding-top: 30px;
 	padding-bottom: 0px;
 	background-image: url(../img/background-safe-word.svg);
-	background-repeat: no-repeat;
-}
-
-/*key word supportive*/
-.keyword-01 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-02.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding-left: 170px;
-}
-
-/*key word inclusive*/
-.keyword-02 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-03.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding-top: 40px;
-}
-
-/*key word education*/
-.keyword-03 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-02.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
 }
 	
 } /* min-width 641px, medium screens */
@@ -591,37 +504,10 @@ ul {
 }
 
 .keywords {
+	display: none;
 	padding-top: 30px;
 	padding-bottom: 0px;
 	background-image: url(../img/background-safe-word.svg);
-	background-repeat: no-repeat;
-}
-
-/*key word supportive*/
-.keyword-01 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-02.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding-left: 170px;
-	margin-bottom: 300px;
-}
-
-/*key word inclusive*/
-.keyword-02 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-03.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding-top: 40px;
-}
-
-/*key word education*/
-.keyword-03 {
-	float: left;
-	/*background-image: url(../img/background-safe-word-02.svg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
 }
 	
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
