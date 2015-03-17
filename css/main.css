@@ -43,7 +43,7 @@ nav ul {
 h1 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
-	font-size: 50px;
+	font-size: 250%;
 	color: #b8f0d9;
 	margin-bottom: 25px;
 }
@@ -55,6 +55,13 @@ h2 {
 	color: #B8F0D9;
 }
 
+/*delete this h3 if we don't have any within the html*/
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 150%;
+	color: #B8F0D9;
+}
 
 /*background image for mission statement*/
 .mission-statement {
@@ -87,6 +94,9 @@ h2 {
 /*key word supportive*/
 .keyword-01 {
 	float: left;
+	/*background-image: url(../img/background-safe-word-02.svg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
 	padding-left: 170px;
 }
 
@@ -97,35 +107,30 @@ h2 {
 /*key word inclusive*/
 .keyword-02 {
 	float: left;
+	/*background-image: url(../img/background-safe-word-03.svg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
 	padding-top: 40px;
 }
 
 .keyword-02 p {
 	color: #b8f0d9;
-	margin-left: -10px;
 }
 
 /*key word education*/
 .keyword-03 {
 	float: left;
+	/*background-image: url(../img/background-safe-word-02.svg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
 	margin-left: -190px;
 }
 
 .keyword-03 p {
-	color: #83d2e4;
-	margin-left: -6px;
+	color: #b82265;
 }
 
 /*form items*/
-
-.contact-form {
-	padding-top: 50px;
-}
-
-.contact-form ul {
-	list-style: none;
-}
-
 label {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
@@ -174,7 +179,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 }
 
 .visit-spce {
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 /*paragraph styles*/
@@ -193,14 +198,6 @@ p {
 }
 
 /*list styles*/
-
-.visit-spce ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-
 ul {
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
@@ -243,30 +240,7 @@ ul {
 	font-size: 100%;
 }
 
-/* Bullet Styles */
-
-
-.about-spce ul li {
-  color:#444; /* set color of list item to a dark gray */
-	list-style:none; /* if you’re not already using a reset */
-}
-
-.about-spce ul li:before {
-  color:#B72265; /* set color to red */
-  content:"\2022"; /* /2022 is the numerical unicode for &bull; */
-  font-size:1.5em; /* set the font-size of the bullet if necessary. Make sure to use em or %*/
-  padding-right:.25em; /* give the bullet some padding from the text Make sure to use em*/
-  position:relative;
-    top:.1em; /* set the vertical position of the bullet if necessary. Make sure to use em or % */
-}
-
-
 /*Link hovers*/
-
-nav a {
-	line-height: 50px;
-}
-
 a {
 	color: #83d2e4;
 }
@@ -314,16 +288,12 @@ a:hover, a:focus {
 
 .parallelogram{
 	transform: skew(-20deg);
-	 -webkit-transform: skew(-20deg);
-  -ms-transform: skew(-20deg);
   
 }
 
 .skew-fix{
 	display:inline-block;
 	transform: skew(20deg);
-	-webkit-transform: skew(20deg);
-  -ms-transform: skew(20deg);
 }
 
 html *,
@@ -347,19 +317,6 @@ html span {
 }
 /*parallel button end*/
 
-.contact-information {
-	padding-bottom: 50px;
-}
-
-.contact-information-list img {
-	width: 20px;
-}
-
-.contact-information-list li {
-	padding-bottom: 20px;
-	paddding-left: 10px;
-}
-
 /*footer items*/
 footer {
 	margin: 30px 0px 10px 0px;
@@ -381,11 +338,6 @@ footer p {
 	margin: 0;
 }
 
-footer ul {
-	padding: 0;
-	margin: 0;
-}
-
 hr {
 	width: 100%;
 	height: 1px;
@@ -399,87 +351,12 @@ hr {
 }
 
 /*Styles specific to small screen sizes*/
+// Small screens
 @media only screen { 
-	
-	.hero-space {
-		height: 710px;
-		background-position: 0 475px;
-		background-image: none;
-	}
-	
-	p {
-		font-size: 85%;
-	}
-	
-	h1 {
-		font-size: 30px;
-	}
-	
-	h2 {	
-		font-size: 24px;
-	}
-	
-	li {
-		font-size: 12px;
-		line-height: 18px;
-	}
-	
-	.head-call-out {
-		font-size: 20px;
-		line-height: 28px;
-	}
-	
-	.subhead-call-out {
-		font-size: 20px;
-		font-weight: 500;
-	}
-	
-	.list-head-call-out {
-		text-align: center;
-	}
-	
-	/*
-	.call-out span {
-		font-size: ;
-	}
-	
-	.call-out p {
-		font-size: ;
-	}
-	*/
-	/*background image for mission statement*/
-	.mission-statement {
-		background-image: none;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-position: top;
-		background-size: 60%;
-		padding-top: 90px;
-		padding-bottom: 100px;
-	}
-	
-	.keywords {
-		display: none;
-		padding-top: 30px;
-		padding-bottom: 0px;
-		background-image: url(../img/background-safe-word.svg);
-		background-repeat: no-repeat;
-	}
-	
-	.spce-location {
-		padding:0;
-		margin: 0;
-	}
-		
-
-} /* Define mobile styles */
-
-@media only screen and (max-width: 40em) { 
 
 .hero-space {
-	height: 410px;
+	height: 710px;
 	background-position: 0 475px;
-	background-image: none;
 }
 
 p {
@@ -487,47 +364,44 @@ p {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: ;
 }
 
 h2 {	
-	font-size: 24px;
+	font-size: ;
 }
 
-li {
-	font-size: 12px;
-	line-height: 18px;
+ul {
+	
 }
 
-.head-call-out {
-	font-size: 20px;
-	line-height: 28px;
-	padding-top: 20px;
+.call-out {
+
 }
 
-.subhead-call-out {
-	font-size: 20px;
-	font-weight: 500;
+.call-out span {
+	font-size: ;
 }
 
-.list-head-call-out {
-	text-align: center;
+.call-out p {
+	font-size: ;
 }
 
 /*background image for mission statement*/
 .mission-statement {
-	background-image: none;
+	background-image: url(../img/background-mission-statement.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-position: top;
 	background-size: 60%;
-	padding-top: 20px;
-	padding-bottom: 50px;
+	padding-top: 90px;
+	padding-bottom: 100px;
 }
 
 /*key word supportive*/
 .keyword-01 {
 	float: left;
+	/*background-image: url(../img/background-safe-word-02.svg);*/
 	background-repeat: no-repeat;
 	background-size: 100%;
 	padding-left: 170px;
@@ -536,6 +410,7 @@ li {
 /*key word inclusive*/
 .keyword-02 {
 	float: left;
+	/*background-image: url(../img/background-safe-word-03.svg);*/
 	background-repeat: no-repeat;
 	background-size: 100%;
 	padding-top: 40px;
@@ -544,12 +419,93 @@ li {
 /*key word education*/
 .keyword-03 {
 	float: left;
+	/*background-image: url(../img/background-safe-word-02.svg);*/
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
 .keywords {
-	display: none;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	background-image: url(../img/background-safe-word.svg);
+	background-repeat: no-repeat;
+}
+
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { 
+
+.hero-space {
+	height: 710px;
+	background-position: 0 475px;
+}
+
+p {
+	font-size: 85%;
+}
+
+h1 {
+	font-size: ;
+}
+
+h2 {	
+	font-size: ;
+}
+
+ul {
+	
+}
+
+.call-out {
+
+}
+
+.call-out span {
+	font-size: ;
+}
+
+.call-out p {
+	font-size: ;
+}
+
+/*background image for mission statement*/
+.mission-statement {
+	background-image: url(../img/background-mission-statement.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: top;
+	background-size: 60%;
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+
+/*key word supportive*/
+.keyword-01 {
+	float: left;
+	/*background-image: url(../img/background-safe-word-02.svg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-left: 170px;
+}
+
+/*key word inclusive*/
+.keyword-02 {
+	float: left;
+	/*background-image: url(../img/background-safe-word-03.svg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 40px;
+}
+
+/*key word education*/
+.keyword-03 {
+	float: left;
+	/*background-image: url(../img/background-safe-word-02.svg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.keywords {
 	padding-top: 30px;
 	padding-bottom: 0px;
 	background-image: url(../img/background-safe-word.svg);
@@ -559,6 +515,7 @@ li {
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /*Styles specific to medium screen sizes*/
+// Medium screens
 @media only screen and (min-width: 40.063em) {
 	
 .hero-space {
@@ -578,7 +535,6 @@ li {
 }
 
 .keywords {
-	display: none;
 	padding-top: 30px;
 	padding-bottom: 0px;
 	background-image: url(../img/background-safe-word.svg);
@@ -628,11 +584,10 @@ li {
 	background-position: top;
 	background-size: 60%;
 	padding-top: 90px;
-	padding-bottom: 50px;
+	padding-bottom: 250px;
 }
 
 .keywords {
-	display: none;
 	padding-top: 30px;
 	padding-bottom: 0px;
 	background-image: url(../img/background-safe-word.svg);
